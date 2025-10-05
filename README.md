@@ -42,35 +42,30 @@ The **FastAPI** backend handles prediction requests, and the **frontend (HTML, C
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/potato-leaf-disease-prediction.git
-cd potato-leaf-disease-prediction
+      git clone https://github.com/yourusername/potato-leaf-disease-prediction.git
+      cd potato-leaf-disease-prediction
 2️⃣ Install dependencies
-bash
-Copy code
-pip install -r requirements.txt
+      pip install -r requirements.txt
 3️⃣ Run FastAPI backend
-bash
-Copy code
-uvicorn main:app --reload
-This will start the backend at http://127.0.0.1:8000
+      uvicorn main:app --reload
+      This will start the backend at http://127.0.0.1:8000
 
 4️⃣ Open frontend
-Open the index.html file in your browser.
-Upload a potato leaf image → The prediction result (Healthy / Early Blight / Late Blight) will appear instantly.
+      Open the index.html file in your browser.
+      Upload a potato leaf image → The prediction result (Healthy / Early Blight / Late Blight) will appear instantly.
 
 📊 Model Details
 Parameter	Value
 Model Type	CNN
-Accuracy	~94%
 Optimizer	Adam
 Loss Function	Categorical Crossentropy
 Epochs	20
 
 💡 Future Enhancements
-🔹 Add more crop and disease types
-🔹 Improve model accuracy using transfer learning (VGG16, ResNet)
-🔹 Build mobile-friendly UI
-🔹 Deploy on Render / Hugging Face / AWS
+      🔹 Add more crop and disease types
+      🔹 Improve model accuracy using transfer learning (VGG16, ResNet)
+      🔹 Build mobile-friendly UI
+      🔹 Deploy on Render / Hugging Face / AWS
 
 🤝 Contribution
       Contributions are welcome!
