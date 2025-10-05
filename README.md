@@ -58,21 +58,20 @@ This will start the backend at http://127.0.0.1:8000
 Open the index.html file in your browser.
 Upload a potato leaf image → The prediction result (Healthy / Early Blight / Late Blight) will appear instantly.
 
- Model Details
+## Model Details
 Parameter	Value
 Model Type	CNN
-Accuracy	~94%
 Optimizer	Adam
 Loss Function	Categorical Crossentropy
 Epochs	20
 
-  Future Enhancements
+## Future Enhancements
 🔹 Add more crop and disease types
 🔹 Improve model accuracy using transfer learning (VGG16, ResNet)
 🔹 Build mobile-friendly UI
 🔹 Deploy on Render / Hugging Face / AWS
 
- Contribution
+## Contribution
 Contributions are welcome!
 
 Fork this repository
