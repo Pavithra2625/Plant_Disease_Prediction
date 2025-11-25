@@ -1,1 +1,61 @@
+# Virtual Environment
+venv/
+env/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+
+# Environment variables
+*.env
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm files
+.idea/
+
+# VS Code settings
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Logs
+*.log
+
+# Django migrations cache
+*/migrations/__pycache__/
+
+# Dataset large files
+*.csv
+*.zip
+*.tar
+*.gz
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Models and output
+models/
+saved_models/
+
+# Images and training data
+data/
+dataset/
+images/
+input/
+output/
+
+# Node/npm (if using web frontend)
+node_modules/
+
+# Temporary files
+tmp/
+temp/
 
