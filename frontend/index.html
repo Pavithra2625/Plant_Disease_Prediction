@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Potato Disease Classifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Potato Disease Classifier</h1>
+        <div class="upload-section">
+            <input type="file" id="imageInput" accept="image/*">
+            <button onclick="predict()" id="predictBtn">Predict</button>
+        </div>
+        <div class="result-section">
+            <h3>Prediction:</h3>
+            <p id="result">No prediction yet</p>
+            <img id="preview" src="" alt="Image Preview" />
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
